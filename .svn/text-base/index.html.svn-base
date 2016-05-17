@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>quickNotes | localStorage Testing</title> 
+    <link rel="stylesheet" href="css/screen.css">
+ 	<script src="js/lib/head.js"></script>
+	<script>
+		head.js(
+			"js/lib/jquery.js",
+			"js/lib/modernizr.js",
+			"js/quicknotes/init.js"
+		);
+	</script>
+</head>
+<body>
+	<div id="quicknotes" class="wrapper">
+		<header>
+			<h1>quickNotes</h1>
+			<a href="#" class="delete-all">delete all notes</a>
+		</header>
+		
+		<form action="#" method="post">
+			<div>			
+				<input type="text" name="note" id="note" placeholder="Type a note" autofocus>
+			</div>
+		</form>
+		
+		
+		<ol id="notes">
+		</ol>
+	</div>
+</body>
+</html>

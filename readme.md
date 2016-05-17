@@ -2,4 +2,4 @@
 
 OO JS app using local storage. 
 
-See Demo.
+[Check out the demo](http://puddletowndesign.github.io/quicknotes/).
